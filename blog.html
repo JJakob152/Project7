@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kompletter Blog von Jakob Hollingshaus mit Reiseartikeln, Projektbeitraegen und Notizen.">
+    <title>Blog | Jakob Hollingshaus</title>
+    <link rel="icon" href="assets/Worldicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header" id="top">
+        <nav class="nav" aria-label="Hauptnavigation">
+            <a class="brand" href="index.html" aria-label="Zur Startseite">
+                <img src="assets/World15.png" alt="" class="brand-mark">
+                <span>
+                    <strong>Jakob Hollingshaus</strong>
+                    <small>Blog</small>
+                </span>
+            </a>
+
+            <button class="menu-toggle" type="button" aria-label="Navigation oeffnen" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="nav-links" data-nav-links>
+                <a href="index.html">Start</a>
+                <a href="#artikel">Artikel</a>
+                <a href="himalaja-reise.html">Himalaja</a>
+                <a href="index.html#news">News</a>
+                <a class="nav-action" href="https://thermoh2.de/" target="_blank" rel="noopener">ThermoH2</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="blog-hero">
+            <div>
+                <p class="eyebrow">Kompletter Blog</p>
+                <h1>Alle Artikel.<br>Alle Reisen.<br>Eine Welt.</h1>
+                <p>
+                    Neue Wege, ferne Horizonte und Geschichten, die bleiben. Hier findest du Reisen,
+                    Projektbeiträge und Entdeckungen aus aller Welt.
+                </p>
+            </div>
+            <figure class="blog-hero-media">
+                <img src="assets/blog-fernweh-hero-v2.png" alt="Blick aus einem alten Zugabteil auf eine Küste im warmen Morgenlicht">
+            </figure>
+        </section>
+
+        <section class="blog-shell" id="artikel">
+            <aside class="blog-sidebar" aria-label="Blognavigation">
+                <p class="eyebrow">Kategorien</p>
+                <div class="category-filter vertical-filter" aria-label="Blogbeitraege filtern">
+                    <button type="button" class="filter-button is-active" data-filter="all">Alle</button>
+                    <button type="button" class="filter-button" data-filter="reise">Reise</button>
+                    <button type="button" class="filter-button" data-filter="wandern">Wandern</button>
+                    <button type="button" class="filter-button" data-filter="archiv">Archiv</button>
+                </div>
+
+                <div class="side-note">
+                    <h2>Bildquellen</h2>
+                    <p>Jede Artikelkarte hat eine eigene Zeile fuer Bildquelle, Fotograf oder Lizenz.</p>
+                </div>
+            </aside>
+
+            <section class="blog-archive" aria-label="Artikelarchiv">
+                <article class="article-card" id="himalaja-reise" data-category="reise">
+                    <a class="media-frame map-frame" href="himalaja-reise.html">
+                        <img src="assets/karte_tibet-bahn_shanghai_-_kathmandu_2384_2022_1.png" alt="Karte der Himalaja-Route von China nach Nepal">
+                    </a>
+                    <div class="article-content">
+                        <div class="image-source">Bildquelle: Lernidee Erlebnisreisen</div>
+                        <p class="post-meta">31.07. - 17.08. / Himalaja</p>
+                        <h2><a href="himalaja-reise.html">Himalaja Reise: China nach Nepal</a></h2>
+                        <p>Eintrag folgt.</p>
+                        <a class="read-more" href="himalaja-reise.html">Artikel öffnen</a>
+                    </div>
+                </article>
+
+                <article class="article-card" id="goethes-spuren" data-category="wandern">
+                    <a class="media-frame" href="goethes-spuren.html">
+                        <img src="assets/Goethe_Th%C3%BCringen.JPG" alt="Wanderweg im Thueringer Wald">
+                    </a>
+                    <div class="article-content">
+                        <div class="image-source">Bildquelle: eigenes Bild</div>
+                        <p class="post-meta">15.07. / Thueringer Wald</p>
+                        <h2><a href="goethes-spuren.html">Auf Goethes Spuren</a></h2>
+                        <p>Wandern, Landschaft und ein kleiner literarischer Blick in den Thueringer Wald.</p>
+                        <a class="read-more" href="goethes-spuren.html">Artikel öffnen</a>
+                    </div>
+                </article>
+
+                <article class="article-card" id="ocean-camp-schweden" data-category="reise">
+                    <a class="media-frame" href="ocean-camp-schweden.html">
+                        <img src="assets/Ocean-Camp-Schweden.JPG" alt="Sonnenuntergang mit Schiff in Schweden">
+                    </a>
+                    <div class="article-content">
+                        <div class="image-source">Bildquelle: eigenes Bild</div>
+                        <p class="post-meta">27.06. - 11.07. / Schweden</p>
+                        <h2><a href="ocean-camp-schweden.html">Ocean Camp in Schweden</a></h2>
+                        <p>Ein paar kleine Eindrücke, die während eines Ocean Camps im schwedischen Veddö gesammelt habe.</p>
+                        <a class="read-more" href="ocean-camp-schweden.html">Artikel öffnen</a>
+                    </div>
+                </article>
+
+                <article class="article-card wide-article" id="kanada-route" data-category="archiv">
+                    <a class="media-frame" href="#top">
+                        <img src="assets/mountain-starry-hero.png" alt="Gebirge mit Sternenhimmel und Sonnenaufgang">
+                    </a>
+                    <div class="article-content">
+                        <div class="image-source">Bildquelle: Platzhalterbild</div>
+                        <p class="post-meta">Archiv / Kanada</p>
+                        <h2><a href="#top">Von stillen Seen und langen Strassen</a></h2>
+                        <p>Eintrag folgt.</p>
+                    </div>
+                </article>
+            </section>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <a class="footer-brand" href="index.html">
+            <img src="assets/small-footer_image.png" alt="">
+            <span>Jakob Hollingshaus</span>
+        </a>
+        <div class="footer-meta">
+            <details class="imprint-tab"><summary>Impressum</summary><div class="imprint-content"><strong>Jakob Hollingshaus</strong><a href="mailto:jakob@hollingshaus.de">jakob@hollingshaus.de</a><span>Eltville 2026</span></div></details>
+            <p>Letzte Aktualisierung: <span id="currentDate"></span></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
